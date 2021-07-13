@@ -1,4 +1,5 @@
 ﻿using System;
+using Task2.Models;
 
 namespace Task2
 {
@@ -6,7 +7,13 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var user = new User();
+            Console.Write("Enter your name: ");
+            user.Name = Console.ReadLine();
+
+            Console.WriteLine($"Hello {user.Name}!");
+
+            Console.ReadKey();
         }
     }
 }
