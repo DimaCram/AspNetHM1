@@ -14,7 +14,10 @@ namespace Task2
             Console.Write("Enter your age: ");
             user.Age = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Hello {user.Name}\nYour age {user.Age}!");
+            Console.Write("Enter your email: ");
+            user.Email = Console.ReadLine();
+
+            Console.WriteLine($"Hello {user.Name}!\nYour email: {user.Email}\nYour age {user.Age}");
 
             Console.ReadKey();
         }
