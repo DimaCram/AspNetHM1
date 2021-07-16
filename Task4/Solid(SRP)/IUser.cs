@@ -13,17 +13,5 @@ namespace Task4.Solid_SRP_
         public void AddItem(object item);
 
         public void DeleteItem(int id);
-
-        public void PrintUser();
-
-        public void ShowUser();
-
-        public void Load();
-                          
-        public void Save();
-
-        public void Update();
-                            
-        public void Delete();
     }
 }
