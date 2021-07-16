@@ -42,7 +42,7 @@ namespace Task4
 
             while (true)
             {
-                pizza = GetShaurmaAdding(pizza, out bool finish);
+                pizza = GetPizzaAdding(pizza, out bool finish);
 
                 if (finish)
                     break;
@@ -75,7 +75,7 @@ namespace Task4
             }
             return null;
         }
-        private static Pizza GetShaurmaAdding(Pizza pizza, out bool finish)
+        private static Pizza GetPizzaAdding(Pizza pizza, out bool finish)
         {
             finish = false;
 
